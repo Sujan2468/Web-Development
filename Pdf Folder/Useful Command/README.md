@@ -15,7 +15,7 @@
 >**echo This is a message >"Frontend\new.txt"**
 >**Note:** This create new.txt file with content as **This is a message** inside Frontend directory 
 ## 5. How to create empty file inside Directory
->**echo. >"Frontend\index.html"**
+>**echo. >"Frontend\index.html"** OR
 >**type nul>"Frontend\index.html"**
 >**Note:** This create index.html file inside Frontend directory 
 ## 6. How to delete file 

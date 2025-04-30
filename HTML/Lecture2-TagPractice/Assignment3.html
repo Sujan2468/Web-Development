@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .insta{
+            color:pink;
+            font-size:2.5rem;
+        }
+        .youtube{
+            color:red;
+            font-size: 2.5rem;
+        }
+        .tele{
+            color:skyblue;
+            font-size:2.5rem;
+        }
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+        <h1>Welcome to CodeHelp</h1>
+        <h2>Contact Us Form</h2>
+        <form method="post" action="#">
+            <label for="name">Name:</label>
+            <input type="text" placeholder="Enter Your Name" id="name" name="name" required />
+            <br/>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your Email" required />
+            <br />
+            <label for="contact-number">Contact Number</label>
+            <input type="number" id="contact-number" name="contact_number" placeholder="Enter Contact Number">
+            <br />
+            <label for="gender">Gender</label>
+            <select id="gender" name="gender" >
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="others">Others</option>
+            </select>
+            <br/>
+            <label for="dob">Date Of Birth:</label>
+            <input type="date" name="date_of_birth" id="dob" />
+            <br />
+            <label>Rating:</label>
+            <input type="radio" name="rating" id="one" value="1">
+            <label for="one">1</label>
+            <input type="radio" name="rating" id="two" value="2">
+            <label for="two">2</label>
+            <input type="radio" name="rating" id="three" value="3">
+            <label for="three">3</label>
+            <input type="radio" name="rating" id="four" value="4">
+            <label for="four">4</label>
+            <br />
+            <label for="msg">Enter Your Message </label><br/>
+            <textarea id="msg" rows="5" cols="40" placeholder="Enter Your Message" name="message"></textarea>
+            <br />
+            <input type="submit" value="Send" />
+            <input type="reset" value="Reset"/>
+            </form>
+            <br />
+            <a href="http://youtube.com"><i class="fa-brands fa-youtube youtube"></i></a>
+            <a href="http://instagram.com"><i class="fa-brands fa-instagram insta"></i></a>
+            <a href="http://telegram.com"><i class="fa-brands fa-telegram tele"></i></a>
+            <span><abbr>CSS</abbr>(Cascading Style Sheet)</span>
+    </div>
+</body>
+</html>

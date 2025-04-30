@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Complex Table</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width initial-scale=1.0" />
+        <style>
+            th,td{/* This apply border only to cell but not to table border*/
+                border:3px solid black;
+                padding:1rem;
+            }
+            table{
+                border-collapse:collapse;
+            }
+            table >caption{
+                font-weight:bolder;
+                font-size:x-large;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="wrapper">
+            <table>
+                <caption>Class Schedule</caption>
+                <thead>
+                    <tr>
+                        <th>Lesson</th>
+                        <th>Topic</th>
+                        <th>Assignment</th>
+                        <th>Points</th>
+                        <th>Due</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td rowspan="2">1</td>
+                        <td rowspan="2">What is Distance Learning ?</td>
+                        <td>Wiki #1</td>
+                        <td>10</td>
+                        <td>March 10</td>
+                    </tr>
+                    <tr>
+                        <td>Presentation</td>
+                        <td>20</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>History & Theories</td>
+                        <td>Brief Paper</td>
+                        <td>20</td>
+                        <td>March 24</td>
+                    </tr>
+                    <tr>
+                        <td colspan="5" style="text-align:center">Spring Break</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">3</td>
+                        <td rowspan="2">Distance Learners</td>
+                        <td>Discussion #1</td>
+                        <td>10</td>
+                        <td>April 7</td>
+                    </tr>
+                    <tr>
+                        <td>Group Project</td>
+                        <td>50</td>
+                        <td>April 14</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Media Selection</td>
+                        <td>Blog #1</td>
+                        <td>10</td>
+                        <td>April 21</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </body>
+</html>

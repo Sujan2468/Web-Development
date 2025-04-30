@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            border-collapse:collapse;
+        }
+        th,td{
+            border:1px solid black;
+            text-align:center;
+        }
+        .first-group{
+            background-color:yellow;
+        }
+        .second-group{
+            background-color:red;
+        }
+        .third-group{
+            background-color:skyblue;
+        }
+        .forth-group{
+            background-color:green;
+            visibility:collapse;
+        }
+    </style>
+</head>
+<body> 
+    <table>
+        <colgroup><!-- colgroup are done for styling column using css-->
+            <col span="1" class="first-group"/>
+            <col span="2" class="second-group"/>
+            <col span="2" class="third-group"/>
+            <col span="1" class="forth-group" />
+        </colgroup>
+        <thead>
+            <tr>
+                <th colspan="6">Time Table</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="6">Hours</th>
+                <th>Mon</th>
+                <th>Tue</th>
+                <th>Wed</th>
+                <th>Thu</th>
+                <th>Fri</th>
+            </tr>
+            <tr>
+                <td>Science</td>
+                <td>Maths</td>
+                <td>Science</td>
+                <td>Maths</td>
+                <td>Arts</td>
+            </tr>
+            <tr>
+                <td>Social</td>
+                <td>History</td>
+                <td>English</td>
+                <td>Social</td>
+                <td>Sports</td>
+            </tr>
+            <tr>
+                <th colspan="5">Lunch</th>
+            </tr>
+            <tr>
+                <td>Science</td>
+                <td>Maths</td>
+                <td>Science</td>
+                <td>Maths</td>
+                <td rowspan="2">Project</td>
+            </tr>
+            <tr>
+                <td>Social</td>
+                <td>History</td>
+                <td>English</td>
+                <td>Social</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

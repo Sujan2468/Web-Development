@@ -1,0 +1,15 @@
+Question 1 - How can we add Border using box shadow
+Ans- using spread radius(10-hw1-borderUsingBoxShadow.html)
+
+Question 2 - Explore Conic Gradient
+Ans : 03-conicGradient
+
+Question 3 - Spread Radius
+Ans : 05-boxShadow [hr,vr,blur,spread radius, color] [ 2px 2px 5px 4px red]
+
+Question 4 - Exercise1
+👉        : 5 - Display Text on Image [ 4 Corner & 1 Center]
+Ans : 11-hw4-Exercise1
+
+Question 5 - Matrix in 2d Transformation
+Ans : 09-2dTransformation

@@ -1,0 +1,11 @@
+Q1 - PARALLAX - Z-Index = -1 Need in .container??
+YES(z-index handles layering and apply to non-static positioning element. If not mention the other content flows behind it.)
+
+Q2 - PARALLAX - position relative need in container??
+YES(for overlaping its child element in it.If not mention it become relative to body.)
+
+
+Q3 - Img Tag VS Background-Image Property??
+Ans : https://stackoverflow.com/questions/492809/when-to-use-img-vs-css-background-image/492835#492835
+
+Q4 - Explore - grid-row, grid-column, grid-area , align-content,justify-self,justify-item,justify-content,place-items,place-self,align-items
